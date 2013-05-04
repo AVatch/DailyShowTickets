@@ -64,6 +64,7 @@ while(not found):
 			print "Found TIX: opening browser"
 			webbrowser.open_new(site)
 			found = True
-	time.sleep(60)	#check in a minute again
+	if not found:
+		time.sleep(60)	#check in a minute again
 parser2.close()
 
