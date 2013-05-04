@@ -1,0 +1,19 @@
+Contact:
+	Adrian K Vatchinsky
+	akv224@nyu.edu
+	@AVatchinsky
+
+Description:
+	Quick python script thrown together to make getting tickets to the
+	Daily Show with John Stewart easy.
+	
+	Just run and when tickets are availible a browser will open to the 
+	URL
+		www.dailyshow.com/tickets
+	
+
+	This in principle can be easily made to work for the Colbert Report
+	since both sites are more or less identical.
+
+	If anyone wants to make this better(i.e. error handling, tighty things
+	up, etc) feel free to do so :)
