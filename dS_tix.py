@@ -53,10 +53,11 @@ f1 		= urllib2.urlopen(site)
 content1 	= f1.read()
 parser1.feed(content1)
 #Found ticket iframe src, now open it
-f2 		= urllib2.urlopen(parser1.the_iframe)
+tix_site 		= parser1.the_iframe
 parser1.close()
 #loop until found
 while(not found):
+	f2 		= urllib2.urlopen(tix_site)
 	content2 	= f2.read() 
 	parser2.feed(content2)
 	for i in parser2.Data[20:50]:
